@@ -54,6 +54,7 @@ public class BoardList extends HttpServlet {
         out.println("</tr>");
       }
       out.println("</table>");
+      out.println("<p><a href='form.html'>[새 글]</a></p>");
       out.println("</body></html>");
       
     } catch (Exception e) {
