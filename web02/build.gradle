@@ -23,6 +23,7 @@ dependencies {
     providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
     
     //컴파일  + 배포
+    compile 'org.mybatis:mybatis:3.2.8'
     compile 'jstl:jstl:1.2'
     compile 'mysql:mysql-connector-java:5.1.34'
     compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
